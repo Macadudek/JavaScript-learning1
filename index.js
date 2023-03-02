@@ -157,3 +157,16 @@ console.log(logInInfo.age);
 
 console.log(10 + logInInfo.age);
 
+let cislo = 0;
+let jmeno = 'Marcel';
+
+let cisloAndJmeno = cislo === 0 || jmeno === 'Marcel';
+
+console.log(cisloAndJmeno);
+
+if (cisloAndJmeno) {
+    console.log('this was true');
+} else {
+    console.log('this was false');
+
+}
