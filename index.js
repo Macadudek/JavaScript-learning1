@@ -143,17 +143,17 @@ const users = [
     },
 ];
 
-const age = 27;
-let age2 = age;
 
-age2 = 28;
 
-console.log(age, age2);
+let name;
+console.log(name);
 
-const names = ['Marcel'];
-let name2 = names;
+const logInInfo = {
+    name: 'Johny',
+    ccNum: null
+}
 
-name2.push('Devon');
+console.log(logInInfo.age);
 
-console.log(names,name2);
+console.log(10 + logInInfo.age);
 
