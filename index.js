@@ -124,3 +124,36 @@ const product = {
         twitter: "https://"
     }
 };
+
+const users = [
+    {
+        name: "Marcel",
+        age: 23,
+        tags: ['parkour', 'handstands']
+    },
+    {
+        name: "Devon",
+        age: 30,
+        tags: ['calisthenicsr', 'superchill']
+    },
+    {
+        name: "Alex",
+        age: 32,
+        tags: ['gamer', 'nerd']
+    },
+];
+
+const age = 27;
+let age2 = age;
+
+age2 = 28;
+
+console.log(age, age2);
+
+const names = ['Marcel'];
+let name2 = names;
+
+name2.push('Devon');
+
+console.log(names,name2);
+
