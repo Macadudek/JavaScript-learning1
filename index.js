@@ -168,5 +168,103 @@ if (cisloAndJmeno) {
     console.log('this was true');
 } else {
     console.log('this was false');
-
 }
+
+const firstName = "Marcel";
+const lastName = "Dudek";
+
+let wholeName;
+
+if (firstName && lastName) {
+    wholeName = `${firstName} ${lastName}`;
+}
+
+console.log(wholeName);
+
+
+var months = ['Jan', 'feb'];
+
+if (months.length && months[0][0] === 'J') {
+    console.log(months[0]);
+} else {
+    months.push('Jan');
+}
+
+console.log(months)
+
+
+
+var numOfWeeks = 0;
+
+let areNoWeeks;
+
+if (typeof numOfWeeks === 'number') {
+  areNoWeeks = Boolean(numOfWeeks);
+}
+
+console.log(areNoWeeks);
+
+var isSnowing = false;
+if ( !isSnowing ) {
+     isSnowing = true;
+}
+
+
+const value = "Marcello";
+
+let aCount = 0;
+
+for (let i = 0; i < value.length; i++) {
+    let char = value[i];
+    console.log(char);
+    if (char === 'l') {
+        aCount++;
+    }
+}
+
+console.log(aCount);
+
+
+const nameString = 'Marcel'
+
+
+
+for (let i = 0; i < nameString.length; i++) {
+  let result = nameString[i];
+  console.log(result);
+}
+
+
+var cis = 1;
+cis + 1;
+cis++;
+cis += 1;
+cis = cis + 1;
+
+console.log(cis)
+
+var task = "Aaron Jack";
+for (var i = 0; i < task.length; i++) {
+ console.log(i);
+}
+
+
+var names = ['Aaron', 'Jack'];
+for (var i = 0; i < names.length; i++) {
+    console.log(names[ i ] )
+}
+
+var asa = [ 1, 2, 3 ]; 
+for (var num of asa) {
+  console.log(num);
+}
+
+var names8 = ['Aaron', 'Jack'];
+for (var i = 0; i < names8.length; i++) {
+    console.log( i );
+}
+
+const newNum = Number("123");
+
+console.log(newNum, typeof newNum);
+
