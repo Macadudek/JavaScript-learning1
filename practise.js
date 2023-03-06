@@ -76,3 +76,29 @@ var nums = [ 1, 2, 3 ].map( function(num) {
 } );
 
 console.log(nums)
+
+
+var repeatString = function(s, n) {
+    var sum = '';
+    for(let i = 0; i < n; i++)
+      sum += s;
+    return sum;
+  }
+
+  console.log(repeatString("Abc", 5))
+
+
+  //how to reverse a string and check if it's 
+  var isPalindrome = function(str) {
+    var noSpacesStr = str.replaceAll(' ', '')
+    var reversedStr = noSpacesStr.replaceAll(' ', '').split('').reverse().join('');
+    console.log(reversedStr)
+    if (reversedStr === noSpacesStr) {
+      return true
+    } else {
+      return false
+    }
+  };
+
+  console.log(isPalindrome("Marcel"));
+  console.log(isPalindrome("race car"));

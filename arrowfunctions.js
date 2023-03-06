@@ -127,3 +127,16 @@ const result2 = ages.reduce((sum, age) => sum + age);
 console.log(result);
 console.log(result2);
 //if we pass a value before the last round bracket that value will assign into the first sum value, if we pass nothing the first number in our array will be assigned there
+
+
+
+
+var multiplyNumbers = function(num1, num2) {
+    var sum = 0;
+    for(let i = 0; i < num1; i++)
+      sum += num2;
+    console.log(sum);
+    return sum 
+  };
+
+  
